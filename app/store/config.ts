@@ -44,7 +44,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "",
+  customModels: "gpt-4o-mini",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
