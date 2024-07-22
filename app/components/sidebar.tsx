@@ -157,8 +157,10 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
           NextChat
         </div>
-        <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+        <div className={styles["sidebar-sub-title"]} style={{ color: 'orange', fontWeight: 'bold', fontStyle: 'italic' }}>
+          Welcome!<br />
+          你好，我是方正电机开发的ChatGPT应用.<br />
+          备选网址，无需配置，打开即用free.fdmgpt.top
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
