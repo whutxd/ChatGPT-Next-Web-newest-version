@@ -160,8 +160,9 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]} style={{ color: 'orange', fontWeight: 'bold', fontStyle: 'italic' }}>
           Welcome!<br />
           你好，我是方正电机开发的ChatGPT应用.<br />
-          备选网址，无需配置，打开即用free.fdmgpt.top<br />
-          204.7.22：模型默认gpt-4o-mini
+          2024.7.15：备选网址，无需配置，打开即用<br />
+                     free.fdmgpt.top<br />
+          2024.7.22：模型默认使用gpt-4o-mini
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
