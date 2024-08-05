@@ -162,7 +162,7 @@ export function SideBar(props: { className?: string }) {
           你好，我是方正电机开发的ChatGPT应用.<br />
           2024.7.15：<br />
           - 备选网址，无需配置，打开即用<br />
-          - 免费gpt-3.5网址：free.fdmgpt.top<br />
+          - 免费gpt-3.5网址：free1.fdmgpt.top<br />
           2024.7.22：<br />
           - 默认模型升级为gpt-4o-mini(OpenAI)
         </div>
