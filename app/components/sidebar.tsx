@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           FDM ChatGPT
         </div>
         {/* 【已注释】<div className={styles["sidebar-sub-title"]} style={{ color: 'orange', fontWeight: 'bold', fontStyle: 'italic' }}> */}
-        <div className={styles["sidebar-sub-title"]} style={{ color: 'pink', fontWeight: 'normal', fontStyle: 'italic' }}>
+        <div className={styles["sidebar-sub-title"]} style={{ color: 'pink', fontWeight: 'bold', fontStyle: 'normal' }}>
           Welcome!<br />
           你好，我是方正电机开发的ChatGPT应用.<br />
           2024.7.15：<br />
@@ -166,8 +166,8 @@ export function SideBar(props: { className?: string }) {
           - 免费gpt-3.5网址：free1.fdmgpt.top<br />
           2024.7.22：<br />
           - 默认模型升级为gpt-4o-mini(OpenAI)<br />
-          2024.9.11：<br />
-          <span style={{ color: 'pink', fontWeight: 'normal', fontStyle: 'normal' }}>2024.9.11：</span><br />
+          {/* 【已注释】2024.9.11：<br /> */}
+          <span style={{ color: 'pink', fontWeight: 'bold', fontStyle: 'italic' }}>2024.9.11：</span><br />
           - <a href="https://navi.fdmgpt.top" target="_blank" style={{ color: 'pink', fontWeight: 'bold', fontStyle: 'italic' }}>效率工具和数字资源库导航</a><br />
           - <a href="http://fdmai.top" target="_blank" style={{ color: 'pink', fontWeight: 'bold', fontStyle: 'italic' }}>FDM AI平台</a><br />
           - <a href="https://chatgptplus.cn" target="_blank" style={{ color: 'pink', fontWeight: 'bold', fontStyle: 'italic' }}>ChatGPT PLUS公益站点</a>
