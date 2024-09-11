@@ -164,7 +164,10 @@ export function SideBar(props: { className?: string }) {
           - 备选网址，无需配置，打开即用<br />
           - 免费gpt-3.5网址：free1.fdmgpt.top<br />
           2024.7.22：<br />
-          - 默认模型升级为gpt-4o-mini(OpenAI)
+          - 默认模型升级为gpt-4o-mini(OpenAI)<br />
+          2024.9.11：<br />
+          - [效率工具和数字资源库导航](https://navi.fdmgpt.top)<br />
+          - [FDM AI平台](http://fdmai.top)
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
