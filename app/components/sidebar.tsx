@@ -166,8 +166,9 @@ export function SideBar(props: { className?: string }) {
           2024.7.22：<br />
           - 默认模型升级为gpt-4o-mini(OpenAI)<br />
           2024.9.11：<br />
-          - [效率工具和数字资源库导航](https://navi.fdmgpt.top)<br />
-          - [FDM AI平台](http://fdmai.top)
+          - 效率工具和数字资源库导航<br />
+          <a href="https://navi.fdmgpt.top" target="_blank">点击这里查看更多信息</a>
+
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
