@@ -419,7 +419,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好，我是FDM开发的ChatGPT应用。有什么可以帮你的吗？\n\n友情链接：[效率工具+数字资源库导航](https://navi.fdmgpt.top) | [FDM AI平台](http://fdmai.top)",
+    // BotHello: "你好，我是FDM开发的ChatGPT应用。有什么可以帮你的吗？\n\n**友情链接：**[效率工具+数字资源库导航](https://navi.fdmgpt.top) | [FDM AI平台](http://fdmai.top)",
+    BotHello: "你好，我是FDM开发的ChatGPT应用。有什么可以帮你的吗？\n\n**友情链接**：[效率工具和数字资源库导航](https://navi.fdmgpt.top) | [FDM AI平台](http://fdmai.top)\n\n**第三方公益站点**（原价20美元/月/人，现免费使用）：[ChatGPT PLUS（DALL-E绘图+GPTs+GPT全部模型）](https://chatgptplus.cn/)\n\n release version: Author:[Xiao Dong](https://www.feishu.cn/invitation/page/add_contact/?token=6e5h2959-dd44-4fb6-8288-219ae3095f43&amp;unique_id=O6WwlbfJkrrz98q0htNyew==) | Version:20240911 ",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
