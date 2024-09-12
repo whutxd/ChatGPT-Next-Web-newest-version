@@ -165,8 +165,8 @@ export function SideBar(props: { className?: string }) {
           2024.7.15：<br />
           {/* 【已注释】- 备选网址，无需配置，打开即用<br /> */}
           {/* 【已注释】- 免费gpt-3.5网址：free1.fdmgpt.top<br /> */}
-          - 付费gpt(需配置key)：<a href="https://fdmgpt.top" target="_blank">fdmgpt.top</a><br />
-          - 免费gpt(不需配置key)：<a href="https://free1.fdmgpt.top" target="_blank">free1.fdmgpt.top</a><br />
+          - 付费gpt(需配置key)：<a href="https://fdmgpt.top" target="_blank" style={{ color: 'orange', fontWeight: 'normal', fontStyle: 'italic' }}>fdmgpt.top</a><br />
+          - 免费gpt(不需配置key)：<a href="https://free1.fdmgpt.top" target="_blank" style={{ color: 'orange', fontWeight: 'normal', fontStyle: 'italic' }}>free1.fdmgpt.top</a><br />
           2024.7.22：<br />
           - 默认模型升级为gpt-4o-mini(OpenAI)<br />
           {/* 【已注释】2024.9.11：<br /> */}
